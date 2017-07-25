@@ -11,7 +11,7 @@ namespace UsingUITest.UITests
 	[TestFixture(Platform.iOS)]
 	public class Tests
 	{
-		IApp app;
+		IApp app; 
 		Platform platform;
 
 		static readonly Func<AppQuery, AppQuery> InitialMessage = c => c.Marked("MyLabel").Text("Hello, Xamarin.Forms!");
